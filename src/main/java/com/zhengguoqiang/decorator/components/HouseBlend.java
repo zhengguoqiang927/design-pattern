@@ -1,0 +1,17 @@
+package com.zhengguoqiang.decorator.components;
+
+import com.zhengguoqiang.decorator.Beverage;
+
+/**
+ * @author zhengguoqiang
+ */
+public class HouseBlend extends Beverage {
+
+    public HouseBlend() {
+        description = "House Blend Coffee";
+    }
+
+    public double cost() {
+        return 0.89;
+    }
+}
