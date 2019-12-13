@@ -3,7 +3,7 @@ package com.zhengguoqiang.singleton;
 /**
  * @author zhengguoqiang
  */
-public class SingletonTest02 {
+public class SingletonLazy {
     public static void main(String[] args) {
         SingletonTest2 singletonTest2 = SingletonTest2.getInstance2();
         SingletonTest2 singletonTest3 = SingletonTest2.getInstance2();
